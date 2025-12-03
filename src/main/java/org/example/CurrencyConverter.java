@@ -1,8 +1,7 @@
 package org.example;
 
 import java.util.Scanner;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
 
 public class CurrencyConverter {
     public void convert(Scanner scanner) {
