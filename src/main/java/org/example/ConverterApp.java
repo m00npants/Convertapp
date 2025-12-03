@@ -19,6 +19,7 @@ public class ConverterApp {
             switch (choice) {
                 case 1 -> new CurrencyConverter().convert(scanner);
                 case 2 -> new TemperatureConverter().convert(scanner);
+                case 3 -> new LengthConverter().convert(scanner);
                 case 0 -> running = false;
                 default -> System.out.println("Invalid choice. Try again.");
             }
