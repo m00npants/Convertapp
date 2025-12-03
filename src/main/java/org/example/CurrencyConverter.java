@@ -21,8 +21,8 @@ public class CurrencyConverter {
         switch (option) {
             case 1 -> { result = amount * 0.092; from = "SEK"; to = "USD"; }
             case 2 -> { result = amount / 0.092; from = "USD"; to = "SEK"; }
-            case 3 -> { result = amount * 0.088; from = "SEK"; to = "EUR"; }
-            case 4 -> { result = amount / 0.088; from = "EUR"; to = "SEK"; }
+            case 3 -> { result = amount * 0.091; from = "SEK"; to = "EUR"; }
+            case 4 -> { result = amount / 0.091; from = "EUR"; to = "SEK"; }
             default -> System.out.println("Invalid option.");
         }
 // time and results
