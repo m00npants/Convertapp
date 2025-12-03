@@ -28,9 +28,9 @@ public class CurrencyConverter {
         }
 // time and results
         if (option >= 1 && option <= 4) {
-            String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm"));
+
             System.out.printf("Result: %.2f %s = %.2f %s\n", amount, from, result, to);
-            System.out.println("Converted at: " + timestamp);
+            System.out.println("Converted at: " + DateTime.getTimestamp());
         }
     }
 }
